@@ -16,5 +16,11 @@ public class Main {
         int month = keyboard.nextInt();
         System.out.println("What year were you born on?");
         int year = keyboard.nextInt();
+
+        if (month == 1 || month ==2){
+            month = (month ==1) ? 13
+                    
+                    year --;
+        }
     }
 }
